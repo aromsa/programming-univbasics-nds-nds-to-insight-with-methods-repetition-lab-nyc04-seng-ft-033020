@@ -30,10 +30,8 @@ def list_of_directors(source)
   while counter < directors_database.length do
     puts directors_database[source].count
     counter += 1 
-  
-  
-  
- p directors_database[source].count
+end
+list_of_directors
 end
 
 def total_gross(source)

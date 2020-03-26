@@ -27,7 +27,7 @@ end
 def list_of_directors(source)
   # Write this implementation
   counter = 0 
-  while counter < directors_database.length do
+  while counter < source.length do
     i = 0 
     while i < directors_database.length
     puts directors_database[source].count

@@ -26,6 +26,12 @@ end
 
 def list_of_directors(source)
   # Write this implementation
+  counter = 0 
+  
+  
+  
+  
+ p directors_database[source].count
 end
 
 def total_gross(source)

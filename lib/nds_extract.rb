@@ -31,9 +31,9 @@ def list_of_directors(source)
     i = 0 
     while i < source[counter].count do
       puts source[counter][i]
-    counter += 1 
+    i += 1 
 end
-list_of_directors
+counter += 1
 end
 
 def total_gross(source)

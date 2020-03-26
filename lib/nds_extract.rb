@@ -53,7 +53,7 @@ def total_gross(source)
   i = 0 
   while i < names.length do 
     name = names [i]
-    gross += totals[name]
+    gross += totals [name]
     i += 1 
   end
   gross 

@@ -36,6 +36,7 @@ end
 counter += 1
 end
 
+
 def total_gross(source)
   # Write this implementation
   #

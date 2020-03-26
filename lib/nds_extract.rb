@@ -49,7 +49,14 @@ def total_gross(source)
   totals = directors_totals (source)
   names = list_of_directors (source)
   
-  
+  gross = 0 
+  i = 0 
+  while i < names.length do 
+    name = names [i]
+    gross += directors [name]
+    i += 1 
+  end
+  gross 
 end
 
 
